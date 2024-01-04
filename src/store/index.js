@@ -12,7 +12,7 @@ const methods = {
   decreaseCounter() {
     state.counter--
   },
-  setColorCode(newValue) {
+  setColorCode(newValue) {   // see: "readonly(state)" below
     state.colorCode = newValue  // force color change via computed.set.newValue
   }
 }
